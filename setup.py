@@ -66,7 +66,7 @@ setup(
     #packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
     py_modules=['adf2pdf'],
 
-    install_requires=['configargparse', 'img2pdf', 'Pillow', 'PyPDF2' ],  # Optional
+    install_requires=['configargparse', 'img2pdf=0.4.4', 'Pillow=10.0.0', 'PyPDF2<3.0' ],  # Optional
 
     python_requires='>=3',
 
